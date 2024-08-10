@@ -1,0 +1,159 @@
+
+.membership-page {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+    background-color: #c6f3ca;
+  }
+  
+  .membership-header {
+    margin-bottom: 40px;
+  }
+  
+  .plans-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    gap: 10px;
+  }
+  
+  .plan-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    background-color: white;
+    transition: transform 0.3s;
+    position: relative;
+  }
+  
+  .plan-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .plan-card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .price {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .plan-card ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .plan-card ul li {
+    margin: 10px 0;
+    position: relative;
+  }
+  
+  .icon {
+    width: 20px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  
+  .tooltip {
+    visibility: hidden;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    width: 120px;
+  }
+  
+  .plan-card ul li:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .plan-card button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .plan-card button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  .basic {
+    border-top: 5px solid #ffc107;
+  }
+  
+  .standard {
+    border-top: 5px solid #17a2b8;
+  }
+  
+  .premium {
+    border-top: 5px solid #28a745;
+  }
+  
+  .comparison-table {
+    margin: 40px 0;
+  }
+  
+  .comparison-table table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .comparison-table th, .comparison-table td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  .comparison-table th {
+    background-color: #f4f4f9;
+  }
+  
+  .membership-footer {
+    margin-top: 40px;
+  }
+  
+ 
+  @media (max-width: 768px) {
+    .plans-section {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .plan-card {
+      width: 100%;
+      max-width: 300px;
+    }
+  }
+  .icon {
+    font-size: 24px; 
+    margin-right: 10px;
+  }
+   
+
+
+  

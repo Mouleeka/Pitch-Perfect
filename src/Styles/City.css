@@ -1,0 +1,122 @@
+/* src/Styles/City.css
+
+.activities-page {
+  background-color: #f0f0f0;
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 60vh;
+  background-image: url('../Images/cc1.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: #fff;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  margin-bottom: 32px;
+  border-radius: 0 0 30px 30px;
+  overflow: hidden;
+  animation: fadeIn 1s ease-in;
+}
+
+.hero-title {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 0 0 30px 30px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  max-width: 80%;
+}
+
+.map-container {
+  height: 350px;
+  width: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-top: 32px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.book-slot-header {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.slot-card {
+  border: none;
+  border-radius: 20px;
+  padding: 16px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  position: relative;
+  background-color: #eafaf1;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.slot-card.available {
+  background-color: #eafaf1;
+}
+
+.slot-card.unavailable {
+  background-color: #f8d7da;
+}
+
+.slot-card h6 {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.slot-card button {
+  width: 100%;
+  border-radius: 12px;
+  padding: 12px;
+  font-size: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.slot-card button.book-now {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.slot-card button.unavailable {
+  background-color: #dc3545;
+  color: #fff;
+}  */
+
+.city-container {
+  display: flex;
+  padding: 16px;
+}
+
+.city-image {
+  width: 300px;
+  height: auto;
+}
+
+.city-details {
+  flex: 1;
+  padding-left: 16px;
+}
+
+.slot-card {
+  margin-bottom: 1px;
+  margin-top: 1px;
+}
+
+
+
+

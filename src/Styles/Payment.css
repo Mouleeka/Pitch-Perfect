@@ -1,0 +1,32 @@
+/* src/Styles/Payment.css */
+
+/* Add any additional styles you need */
+.payment-container {
+    padding: 20px;
+  }
+  
+  .payment-header {
+    text-align: center;
+  }
+  
+  .payment-methods {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .payment-methods .method {
+    display: flex;
+    align-items: center;
+  }
+  
+  .payment-details {
+    margin-top: 20px;
+  }
+  
+  .confirm-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  

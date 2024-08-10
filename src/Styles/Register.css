@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f9;
+}
+
+.register-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Ensures full viewport height */
+  background: url('../Images/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background: linear-gradient(135deg, #ff5722, #ff8a65); */
+}
+
+.register-box {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  text-align: center;
+  margin: 40px 0;
+  width: 90%;
+  max-width: 500px; /* Limit width to match your preferred width */
+}
+
+.register-box h2 {
+  margin-bottom: 20px;
+  color: #060606;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px; /* Added margin for spacing */
+  color: #070707;
+}
+
+.input-group input {
+  width: 100%; /* Adjusted to fit container */
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease; /* Smooth border transition */
+}
+
+.input-group input:focus {
+  outline: none;
+  border-color: #ff5722;
+}
+
+.register-button {
+  width: 100%;
+  padding: 10px;
+  background: #ff5722;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.register-button:hover {
+  background: #60bc35;
+}
+
+.error-message, .success-message {
+  margin: 15px 0;
+  font-size: 14px;
+}
+
+.error-message {
+  color: red;
+}
+
+.success-message {
+  color: green;
+  
+}
+
+.login-link {
+  margin-top: 20px;
+  color: rgb(159, 39, 39);
+}
+
+.login-link a {
+  color: #3388ea;
+  text-decoration: none;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}

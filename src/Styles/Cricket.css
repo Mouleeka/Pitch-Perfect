@@ -1,0 +1,125 @@
+.cricket-page-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    text-align: center;
+    background: linear-gradient(to right, #e0f7fa, #b9d9f7);
+  }
+  
+  .cricket-page-title {
+    color: #1e272e;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+  }
+  
+  .cricket-banner {
+    margin-bottom: 30px;
+  }
+  
+  .cricket-banner-image {
+    width: 100%;
+    height: 500px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .cricket-filter {
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 1.2rem;
+  }
+  
+  .cricket-filter select {
+    padding: 8px 12px;
+    font-size: 1rem;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .cricket-location-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+  }
+  
+  .cricket-location-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .cricket-location-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .cricket-location-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+  }
+  
+  .cricket-location-content {
+    padding: 20px;
+    position: relative;
+    text-align: left;
+  }
+  
+  .cricket-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 2rem;
+    color: #ff5722;
+  }
+  
+  .cricket-location-name {
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: #34495e;
+  }
+  
+  .cricket-location-address,
+  .cricket-location-hours,
+  .cricket-availability,
+  .cricket-contact,
+  .cricket-price {
+    margin: 5px 0;
+    color: #7f8c8d;
+  }
+  
+  .cricket-book-now {
+    background-color: #ffaa22;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-size: 1rem;
+  }
+  
+  .cricket-book-now:hover {
+    background-color: #f46607;
+    transform: scale(1.05);
+  }
+  
+  .cricket-book-now.disabled {
+    background-color: #c0392b;
+    cursor: not-allowed;
+  }
+  
+  .cricket-book-now.disabled:hover {
+    background-color: #c0392b;
+    transform: none;
+  }

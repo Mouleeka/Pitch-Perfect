@@ -1,0 +1,126 @@
+.basketball-page-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    text-align: center;
+    background: linear-gradient(to right, #dff099c0, #e1e8f0);
+  }
+  
+  .basketball-page-title {
+    color: #2c3e50;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+  }
+  
+  .basketball-banner {
+    margin-bottom: 30px;
+  }
+  
+  .basketball-banner-image {
+    width: 100%;
+    height: 500px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .basketball-filter {
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 1.2rem;
+  }
+  
+  .basketball-filter select {
+    padding: 8px 12px;
+    font-size: 1rem;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .basketball-location-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+  }
+  
+  .basketball-location-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .basketball-location-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .basketball-location-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+  }
+  
+  .basketball-location-content {
+    padding: 20px;
+    position: relative;
+    text-align: left;
+  }
+  
+  .basketball-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 2rem;
+    color: #3c7be7;
+  }
+  
+  .basketball-location-name {
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: #2c3e50;
+  }
+  
+  .basketball-location-address,
+  .basketball-location-hours,
+  .basketball-availability,
+  .basketball-contact,
+  .basketball-price {
+    margin: 5px 0;
+    color: #95a5a6;
+  }
+  
+  .basketball-book-now {
+    background-color: #27ae60;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-size: 1rem;
+  }
+  
+  .basketball-book-now:hover {
+    background-color: #108742;
+    transform: scale(1.05);
+  }
+  
+  .basketball-book-now.disabled {
+    background-color: #e74c3c;
+    cursor: not-allowed;
+  }
+  
+  .basketball-book-now.disabled:hover {
+    background-color: #e74c3c;
+    transform: none;
+  }
+  

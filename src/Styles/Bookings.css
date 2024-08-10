@@ -1,0 +1,26 @@
+/* Bookings.css */
+.bookings-container {
+    padding: 20px;
+  }
+  
+  .booking {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .booking h2 {
+    margin-top: 0;
+  }
+  
+  .booking button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  

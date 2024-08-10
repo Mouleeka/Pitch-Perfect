@@ -1,0 +1,163 @@
+/* General styling for the entire profile */
+.user-profile {
+    font-family: 'Arial', sans-serif;
+    max-width: 800px;
+    margin: 20px auto;
+    background: linear-gradient(145deg, #e6e6e6, #ffffff);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding-bottom: 20px;
+}
+
+.user-profile:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.profile-header {
+    background: linear-gradient(145deg, #4caf50, #66bb6a);
+    color: white;
+    padding: 30px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px 15px 0 0;
+    transition: background-color 0.3s ease;
+}
+
+.profile-pic {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-right: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.profile-pic:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+}
+
+.user-stats, .user-activities {
+    padding: 20px;
+    background: white;
+}
+
+.user-stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.stat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+    background: #e8f5e9;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.stat-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.stat-item span {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.stat-item label {
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+}
+
+.sport-info-play {
+    grid-column: span 2;
+    font-weight: bold;
+    background: #e0f7fa;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.user-activities {
+    border-top: 1px solid #ddd;
+}
+
+.user-activities h2 {
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.activity {
+    background: #f1f8e9;
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    border-left: 5px solid #4caf50;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.activity:hover {
+    background: #e6ee9c;
+    transform: translateX(5px);
+}
+
+.btn-reputation {
+    display: block;
+    width: calc(100% - 40px);
+    padding: 12px;
+    margin: 20px auto;
+    font-size: 16px;
+    color: white;
+    background: linear-gradient(145deg, #66bb6a, #43a047);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.btn-reputation:hover {
+    background: #2e7d32;
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .profile-header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .profile-pic {
+        margin-bottom: 10px;
+    }
+
+    .user-stats {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .sport-info {
+        grid-column: span 2;
+    }
+}
